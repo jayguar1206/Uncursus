@@ -6,6 +6,7 @@ echo -e "\e[31mWelcome to Uncursus Install Script V0.4.2 (Alha) By @Yaya4_4 Foll
 echo "WARNING : THIS IS IN ALPHA A9-A11 IS ONLY SUPPORTED IM NOT RESPONSABLE IF ANYTHING GOES WRONG"
 echo "If you found bug pls create an issues in github ;)"
 echo "Enjoy :)"
+echo "Starting..."
 echo "Installing Dependency For The Installer"
 apt update
 apt install unzip -y
