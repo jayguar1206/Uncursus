@@ -26,18 +26,18 @@ dpkg -i /User/Documents/Uncursus/DebProcurusSystem/*.deb
 echo "Done. Create Custom Directory For Download All Files Requied. Path (/User/Documents/)."
 mkdir /User/Documents/Uncursus/u0
 wget https://github.com/Yaya48/Uncursus/blob/new/DebPatch.zip?raw=true --directory-prefix=/User/Documents/Uncursus/
-unzip /User/Documents/Uncursus/DebPatch.zip?raw\=true -d /User/Documents/DebPatch
+unzip /User/Documents/Uncursus/DebPatch.zip?raw\=true -d /User/Documents/Uncursus/DebPatch
 rm -rf /usr/bin/cyinject
 wget https://apt.bingner.com/debs/1443.00/com.ex.substitute_0.1.14_iphoneos-arm.deb --directory-prefix=/User/Documents/Uncursus/u0
 wget https://apt.bingner.com/debs/1443.00/com.saurik.substrate.safemode_0.9.6003_iphoneos-arm.deb --directory-prefix=/User/Documents/Uncursus/u0
 echo "Done. Installing necessary debs for patch."
-dpkg -i --force-all /User/Documents/Uncursus/coreutils.deb
-dpkg -i --force-all /User/Documents/Uncursus/xz-utils.deb
-dpkg -i --force-all /User/Documents/Uncursus/coreutils-bin_8.31-1_all.deb
-dpkg -i --force-all /User/Documents/Uncursus/libssl.deb
-dpkg -i --force-all /User/Documents/Uncursus/lzma.deb
-dpkg -i --force-all /User/Documents/Uncursus/ncurses5-libs_5.9-1_all.deb
-dpkg -i --force-all /User/Documents/Uncursus/xz_5.2.4-4_all.deb
+dpkg -i --force-all /User/Documents/Uncursus/DebPatch/coreutils.deb
+dpkg -i --force-all /User/Documents/Uncursus/DebPatch/xz-utils.deb
+dpkg -i --force-all /User/Documents/Uncursus/DebPatch/coreutils-bin_8.31-1_all.deb
+dpkg -i --force-all /User/Documents/Uncursus/DebPatch/libssl.deb
+dpkg -i --force-all /User/Documents/Uncursus/DebPatch/lzma.deb
+dpkg -i --force-all /User/Documents/Uncursus/DebPatch/ncurses5-libs_5.9-1_all.deb
+dpkg -i --force-all /User/Documents/Uncursus/DebPatch/xz_5.2.4-4_all.deb
 dpkg -i --force-all /User/Documents/Uncursus/u0/com.ex.substitute_0.1.14_iphoneos-arm.deb.deb com.saurik.substrate.safemode_0.9.6003_iphoneos-arm.deb
 echo "Done. Running Firmware Configuration (./firmware.sh)"
 /usr/libexec/firmware
