@@ -11,14 +11,14 @@ apt update
 apt install unzip -y
 apt install com.bingner.plutil -y
 apt install zsh -y
-apt install curl
+apt install curl -y
 echo "Downloading And Executing Offical Procurus Script From Coolstar"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Yaya48/Uncurus/master/procursus-deploy-u0.sh?token=AIFJUV3CJZF2ZU3AXAFRFTC64TU3O)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Yaya48/Uncurus/master/procursus-deploy-u0.sh)"
 echo "Downloading And Installing Offical Procurus Deb"
-wget https://github.com/Yaya48/Uncurus/blob/master/DebProcurusSystem.zip?raw=true --directory-prefix/User/Documents/DebPatch
+wget https://github.com/Yaya48/Uncurus/blob/master/DebProcurusSystem.zip?raw=true --directory-prefix=/User/Documents/
 unzip /User/Documents/DebPatch/DebProcurusSystem.zip -d /User/Documents/
 dpkg -i /User/Documents/DebProcurusSystem/*.deb
-echo "Done. Create Custom Directory For Download All Files Requied. Path (/User/Documents/DebPatch)."
+echo "Done. Create Custom Directory For Download All Files Requied. Path (/User/Documents/)."
 rm -rf /User/Documents/DebPatch
 mkdir /User/Documents/DebPatch
 rm -rf /User/Documents/u0
