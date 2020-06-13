@@ -39,7 +39,7 @@ dpkg -i --force-all /User/Documents/Uncursus/DebPatch/libssl.deb
 dpkg -i --force-all /User/Documents/Uncursus/DebPatch/lzma.deb
 dpkg -i --force-all /User/Documents/Uncursus/DebPatch/ncurses5-libs_5.9-1_all.deb
 dpkg -i --force-all /User/Documents/Uncursus/DebPatch/xz_5.2.4-4_all.deb
-dpkg -i --force-all /User/Documents/Uncursus/u0/*.deb
+dpkg -i --force-all /User/Documents/Uncursus/u0/com.ex.substitute_0.1.14_iphoneos-arm.deb.deb com.saurik.substrate.safemode_0.9.6003_iphoneos-arm.deb
 echo "Done. Running Firmware Configuration (./firmware.sh)"
 bash /usr/libexec/firmware.sh
 echo "BootStrap Installions Done. The Installer Clean The Installions"
