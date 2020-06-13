@@ -2,7 +2,7 @@
 if [ "$EUID" -ne 0 ]; then
 echo Please run this script as root.
 else
-echo -e "\e[31mWelcome to Uncursus Install Script V0.2 (Alha) By @Yaya4_4 Follow Me On Twitter Pls.\e[0m"
+echo -e "\e[31mWelcome to Uncursus Install Script V0.2.1 (Alha) By @Yaya4_4 Follow Me On Twitter Pls.\e[0m"
 echo "WARNING : THIS IS IN ALPHA A9-A11 IS NOT SUPPORTED IM NOT RESPONSABLE IF ANYTHING GOES WRONG"
 echo "If you found bug pls create an issues in github ;)"
 echo "Enjoy :)"
@@ -15,6 +15,8 @@ apt install curl -y
 echo "Downloading And Executing Offical Procurus Script From Coolstar"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Yaya48/Uncurus/master/procursus-deploy-u0.sh)"
 echo "Downloading And Installing Offical Procurus Deb"
+apt update
+apt install wget -y
 wget https://github.com/Yaya48/Uncurus/blob/master/DebProcurusSystem.zip --directory-prefix=/User/Documents/
 unzip /User/Documents/DebPatch/DebProcurusSystem.zip -d /User/Documents/
 dpkg -i /User/Documents/DebProcurusSystem/*.deb
