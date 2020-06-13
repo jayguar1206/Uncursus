@@ -9,7 +9,7 @@ echo "Enjoy :)"
 echo "Installing Dependency For The Installer"
 apt update
 apt install unzip -y
-apt install com.plutil.bingner -y
+apt install com.bingner.plutil -y
 apt install zsh -y
 apt install curl
 echo "Downloading And Executing Offical Procurus Script From Coolstar"
