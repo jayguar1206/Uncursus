@@ -42,7 +42,7 @@ dpkg -i --force-all /User/Documents/Uncursus/u0/*.deb
 echo "Done. Running Firmware Configuration (./firmware.sh)"
 /usr/libexec/firmware
 echo "BootStrap Installions Done. The Installer Clean The Installions"
-#rm -rf /User/Documents/Uncursus/
+rm -rf /User/Documents/Uncursus/
 rm /etc/apt/sources.list.d/odyssey.sources
 echo "All Done."
 killall SpringBoard
