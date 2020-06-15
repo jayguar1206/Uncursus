@@ -1,5 +1,8 @@
 # Uncurus
 Procurus Bootstrap On u0
+
+Credis To https://github.com/ProcursusTeam/repo For The Bootstrap
+
 Steps from yaya and me kind of
 1 open cydia and install openssh
 
