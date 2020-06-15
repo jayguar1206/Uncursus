@@ -4,13 +4,15 @@ Procurus Bootstrap On u0
 Credis To https://github.com/ProcursusTeam/repo For The Bootstrap
 
 Steps from yaya and me kind of
-1 open cydia and install openssh
+1) Restore Rotfs & Rejb With u0
 
-2 ssh into device and run apt update
+2)open cydia and install openssh
 
-3 run apt install cURL
+2) ssh into device and run apt update
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Yaya48/Uncurus/new/installall.sh)"
+3) run apt install cURL
+
+4) Run The Command And Wait /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Yaya48/Uncurus/new/installall.sh)"
 
 5 open sileo
 
