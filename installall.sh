@@ -32,11 +32,11 @@ wget https://apt.bingner.com/debs/1443.00/com.ex.substitute_0.1.14_iphoneos-arm.
 wget https://apt.bingner.com/debs/1443.00/com.saurik.substrate.safemode_0.9.6003_iphoneos-arm.deb --directory-prefix=/User/Documents/Uncursus/u0
 echo "Done. Installing necessary debs for patch."
 dpkg -i --force-all /User/Documents/Uncursus/DebPatch/us.diatr.sileorespring_1.1_iphoneos-arm.deb
-dpkg -i --force-all /User/Documents/Uncursus/DebPatch/coreutils-bin_8.31-1_all.deb
+dpkg -i --force-all /User/Documents/Uncursus/DebPatch/coreutils-bin.deb
 dpkg -i --force-all /User/Documents/Uncursus/DebPatch/libssl.deb
 dpkg -i --force-all /User/Documents/Uncursus/DebPatch/lzma.deb
-dpkg -i --force-all /User/Documents/Uncursus/DebPatch/ncurses5-libs_5.9-1_all.deb
-dpkg -i --force-all /User/Documents/Uncursus/DebPatch/xz_5.2.4-4_all.deb
+dpkg -i --force-all /User/Documents/Uncursus/DebPatch/ncurses5-libs.deb
+dpkg -i --force-all /User/Documents/Uncursus/DebPatch/xz.deb
 dpkg -i --force-all /User/Documents/Uncursus/u0/*.deb
 echo "Done. Running Firmware Configuration (./firmware.sh)"
 /usr/libexec/firmware
@@ -44,6 +44,7 @@ echo "BootStrap Installions Done. The Installer Clean The Installions"
 rm -rf /User/Documents/Uncursus/
 rm /etc/apt/sources.list.d/odyssey.sources
 echo "All Done."
+apt purge cydia
 uicache -a
 killall SpringBoard
 fi
