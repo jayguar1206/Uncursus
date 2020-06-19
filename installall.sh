@@ -44,7 +44,6 @@ echo "BootStrap Installions Done. The Installer Clean The Installions"
 rm -rf /User/Documents/Uncursus/
 rm /etc/apt/sources.list.d/odyssey.sources
 echo "All Done."
-apt purge cydia
-uicache -a
+rm -rf /Aplications/Cydia.app
 killall SpringBoard
 fi
