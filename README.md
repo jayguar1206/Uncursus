@@ -1,25 +1,29 @@
 # Uncurus
-Procurus Bootstrap On u0
+Uncursus
 
-Credis To https://github.com/ProcursusTeam/repo For The Bootstrap
+Uncursus : Procursus Bootstrap On Unc0ver Jailbreak
 
-Steps from yaya and me kind of
-1) Restore Rotfs & Rejb With u0
+Credits :
+Me : Script To Patch Procursus Installtation on Unc0ver
+https://github.com/ProcursusTeam : For The Bootstrap
+https://github.com/coolstar : For The Procursus Deploy Script
 
-2)open cydia and install openssh
+Setps :
+ A12-A3 Not Supported
 
-2) ssh into device and run apt update
+1) You have to restore rootfs with unc0ver
 
-3) run apt install cURL
+2) Rejailbreak With Unc0ver
 
-4) Run The Command And Wait /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Yaya48/Uncurus/new/installall.sh)"
+3) Open Cydia Refrsesh Sources And Install OpenSSH Package
 
-5 open sileo
+*** Must Have Computer For Launch The Script SSH Over IP  (Mac User : User Terminal) (Windows User : User CMD) DO NOT USE NEWTERM***
 
-6 profit
+4)  Find Your Device IP And Use Your PC Or Mac To Connect SSH Over IP
 
-Side note this is really stable so far
+5) Put The Command In Your SSH Over IP Session : /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Yaya48/Uncurus/new/installall.sh)"
 
-And A12-13 devices are not supported at this time
+6) Wait. Your Device Should Respring, Launch Sileo And Profit
 
-So please do not install it on them please and thank you.
+
+Any Bug Report Will Be Appreciat ;) 
