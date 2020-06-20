@@ -12,7 +12,7 @@ https://github.com/coolstar : For The Procursus Deploy Script
 
 Thanks To:
 
-knuckles approver#1119 For All Test And The Name Of Project
+knuckles approver#1119 For All Test And The Name Of The Project
 
 Setps :
  A12-A3 Not Supported
