@@ -1,5 +1,4 @@
 # Uncurus
-Uncursus
 
 Uncursus : Procursus Bootstrap On Unc0ver Jailbreak
 
