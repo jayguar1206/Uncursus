@@ -7,7 +7,7 @@ echo "WARNING : THIS IS IN BETA A9-A11 IS ONLY SUPPORTED IM NOT RESPONSABLE IF A
 echo "If you found bug pls create an issues in github ;)"
 echo "Enjoy :)"
 echo "Starting..."
-echo "Installing Dependency For The Installer"
+echo "Installing Dependency's For The Installer"
 apt update
 apt install unzip -y
 apt install com.bingner.plutil -y
