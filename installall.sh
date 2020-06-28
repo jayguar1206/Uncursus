@@ -2,8 +2,8 @@
 if [ "$EUID" -ne 0 ]; then
 echo Please run this script as root.
 else
-echo -e "\e[31mWelcome to Uncursus Install Script V1.0.4 (Beta) By @Yaya4_4 Follow Me On Twitter Pls.\e[0m"
-echo "WARNING : THIS IS IN BETA A9-A13 IS ONLY SUPPORTED IM NOT RESPONSABLE IF ANYTHING GOES WRONG"
+echo -e "\e[31mWelcome to Uncursus Install Script V1.1 (Stable) By @Yaya4_4 Follow Me On Twitter Pls.\e[0m"
+echo "WARNING : IM NOT RESPONSABLE IF ANYTHING GOES WRONG"
 echo "If you found bug pls create an issues in github ;)"
 echo "Enjoy :)"
 echo "Starting..."
