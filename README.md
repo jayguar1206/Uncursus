@@ -15,7 +15,6 @@ Thanks To:
 knuckles approver#1119 For All Test And The Name Of The Project
 
 Steps :
- A12-A3 Not Supported
 
 1) You have to restore rootfs with unc0ver
 
