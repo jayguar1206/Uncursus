@@ -2,6 +2,8 @@
 
 Uncursus : Procursus Bootstrap On Unc0ver Jailbreak
 
+A9-A13 Is Supported
+
 Credits :
 
 Me : Script To Patch Procursus Installtation For Unc0ver
