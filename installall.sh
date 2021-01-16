@@ -2,9 +2,9 @@
 if [ "$EUID" -ne 0 ]; then
 echo Please run this script as root.
 else
-echo -e "\e[31mWelcome to Uncursus Install Script V1.1 (Stable) By @Yaya4_4 Follow Me On Twitter Pls.\e[0m"
-echo "WARNING : IM NOT RESPONSABLE IF ANYTHING GOES WRONG"
-echo "If you found bug pls create an issues in github ;)"
+echo -e "\e[31mWelcome to the Uncursus Install Script (V1.1) (Stable) By @Yaya4_4 Follow Me On Twitter Pls.\e[0m"
+echo "WARNING : I\'M NOT RESPONSABLE IF ANYTHING GOES WRONG"
+echo "If you have found a bug please create an issue in github ;)"
 echo "Enjoy :)"
 echo "Starting..."
 echo "Installing Dependency's For The Installer"
@@ -13,16 +13,16 @@ apt install unzip -y
 apt install com.bingner.plutil -y
 apt install zsh -y
 apt install curl -y
-echo "Downloading And Executing Offical Procurus Script From Coolstar"
+echo "Downloading And Executing the official procursus Script From Coolstar"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Yaya48/Uncursus/new/procursus-deploy-u0.sh)"
-echo "Downloading And Installing Offical Procurus Deb"
+echo "Downloading And Installing the official procursus Deb"
 rm -rf /User/Documents/Uncursus
 mkdir /User/Documents/Uncursus
 apt update
 apt install wget -y --allow-unauthenticated
-wget https://github.com/Yaya48/Uncursus/blob/new/DebProcurusSystem.zip?raw=true --directory-prefix=/User/Documents/Uncursus/
-unzip /User/Documents/Uncursus/DebProcurusSystem.zip?raw=true -d /User/Documents/Uncursus/
-dpkg -i /User/Documents/Uncursus/DebProcurusSystem/*.deb
+wget https://github.com/Yaya48/Uncursus/blob/new/DebProcursusSystem.zip?raw=true --directory-prefix=/User/Documents/Uncursus/
+unzip /User/Documents/Uncursus/DebProcursusSystem.zip?raw=true -d /User/Documents/Uncursus/
+dpkg -i /User/Documents/Uncursus/DebProcursusSystem/*.deb
 echo "Done. Create Custom Directory For Download All Files Requied. Path (/User/Documents/)."
 mkdir /User/Documents/Uncursus/u0
 wget https://github.com/Yaya48/Uncursus/blob/new/DebPatch.zip?raw=true --directory-prefix=/User/Documents/Uncursus/
@@ -40,10 +40,10 @@ dpkg -i --force-all /User/Documents/Uncursus/DebPatch/xz.deb
 dpkg -i --force-all /User/Documents/Uncursus/u0/*.deb
 echo "Done. Running Firmware Configuration (./firmware.sh)"
 /usr/libexec/firmware
-echo "BootStrap Installions Done. The Installer Clean The Installions"
+echo "BootStrap installation  Done. The installer will now cleanup"
 rm -rf /User/Documents/Uncursus/
 rm /etc/apt/sources.list.d/odyssey.sources
 echo "All Done."
 rm -rf /Aplications/Cydia.app
-killall SpringBoard
+sbreload
 fi
