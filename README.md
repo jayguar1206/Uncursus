@@ -1,4 +1,6 @@
-# Uncurus
+# ~~Uncursus~~ EOL DO NOT USE
+**THIS FORK WAS JUST MADE AS AN ARCHIVE**
+**USE ODYSSEY/CHIMERA/TAURINE INSTEAD**
 
 Uncursus : Procursus Bootstrap On Unc0ver Jailbreak
 
